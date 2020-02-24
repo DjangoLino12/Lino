@@ -1,5 +1,41 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1A1A1A;
+}
+/*Header*/
+header{
+    display: flex;
+    padding: 0.5vw 0vw 0.5vw 1vw;
+}
+header ol{
+    box-shadow: 0px 10px 10px black;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+    background-color: #333333;
+    padding: 0.8vw;
+    max-width: 100%;
+    list-style: none;
+}
+header ol li{
+    text-align: center;
+    font-size: 45px;
+   display: grid;
+   grid-template-columns: 3fr;
+
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+header img{
+    width: 10vw;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header hr{
+    color: #E12D2D;
 }
