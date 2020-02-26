@@ -158,3 +158,24 @@ h2:hover{
     color: #000;
     background-color: #fff;
 }
+
+/* ARTICLE */
+article{
+  margin: auto;
+  max-width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+}
+article .iam{
+  width:25vw;
+  border-radius: 3vw;
+  
+}
+article .p1, .p2, .p3, .p4{
+  padding: 1px;
+  max-width: 41vw;
+  font-size: 2vw;
+  text-align: center;
+}
