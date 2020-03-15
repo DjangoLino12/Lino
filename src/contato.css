@@ -55,12 +55,16 @@ header{
    /*  background-color: bisque; */
   }
   .imagem{
-    display: flex;
-    width: 36.5vw;
+    /* display: flex; */
+   /*  width: 36.5vw; */
     margin: auto;
   /* background-color: #E12D2D; */
-  /* display: flex;
-  justify-content: center; */
+  }
+  @media only screen and (max-device-width: 100%) {
+    .imagem{
+      width: 400px;
+    }
+  
   }
   article{
    /*  background-color: aqua; */
@@ -76,12 +80,12 @@ header{
     display: grid;
     grid-template-columns: 1;
     max-width: 31.5vw;
-    font-size: 2.2vw;
-    /* background-color: aqua; */
+    font-size: 2vw;
+    background-color: aqua;
     justify-content: center;
   }
   form input{
-    width:30vw;
+    width:33.3vw;
     height: 5vh;
     background-color:grey;
     border-style: none;
