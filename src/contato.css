@@ -56,7 +56,7 @@ header{
   }
   .imagem{
   display: flex; 
-    width: 36.5vw; 
+    max-width: 36.5vw; 
     margin: auto;
   /* background-color: #E12D2D; */
   }
@@ -89,7 +89,9 @@ header{
     /* display: grid;
     grid-template-columns: 1; */
     max-width:30vw;
+    min-width: 30vw;
     height: 5vh;
+    
     background-color:grey;
     border-style: none;
   }
