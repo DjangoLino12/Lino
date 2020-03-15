@@ -1,19 +1,20 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0vw;
+    margin: 0vw;
 }
 body{
     background-color: #1A1A1A;
 }
 /*Header*/
 header{
-  max-width: 100%;
+  /* background-color:green ; */
+  max-width: 85vw;
   display: flex;
   padding: 0.5vw 0vw 0.5vw 1vw;
 }
 header ol{
   box-shadow: 0px 10px 10px black;
-  border-radius: 3px;
+  border-radius: 2vw;
   display: flex;
   margin: auto;
   background-color: #333333;
@@ -23,11 +24,11 @@ header ol{
 }
 header ol li{
   font-size: 2.7vw;
-  
   /* grid-template-columns: 3fr; */
   max-width: 21vw;
-  margin-right: 2vw;
+  margin-right: 1vw;
   margin-left: 2vw;
+  /* background-color: #FF0000; */
 }
 header img{
   width: 10vw;
