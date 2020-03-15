@@ -55,20 +55,20 @@ header{
    /*  background-color: bisque; */
   }
   .imagem{
-   /*  display: flex; */
-   /*  width: 36.5vw; */
+  display: flex; 
+    width: 36.5vw; 
     margin: auto;
   /* background-color: #E12D2D; */
   }
-  @media only screen and (max-device-width: 100%) {
+  /* @media only screen and (max-device-width: 100%) {
     .imagem{
       display: flex;
       max-width: 36.5;
     }
   
-  }
+  } */
   article{
-   /*  background-color: aqua; */
+    /* background-color: aqua; */
     max-width: 50vw;
     display: grid;
     grid-template-columns: 1;
@@ -82,11 +82,13 @@ header{
     grid-template-columns: 1;
     max-width: 31.5vw;
     font-size: 2vw;
-    background-color: aqua;
+    /* background-color: aqua; */
     justify-content: center;
   }
   form input{
-    width:33.3vw;
+    /* display: grid;
+    grid-template-columns: 1; */
+    max-width:30vw;
     height: 5vh;
     background-color:grey;
     border-style: none;
