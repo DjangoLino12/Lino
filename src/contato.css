@@ -55,14 +55,15 @@ header{
    /*  background-color: bisque; */
   }
   .imagem{
-    /* display: flex; */
+   /*  display: flex; */
    /*  width: 36.5vw; */
     margin: auto;
   /* background-color: #E12D2D; */
   }
   @media only screen and (max-device-width: 100%) {
     .imagem{
-      width: 400px;
+      display: flex;
+      max-width: 36.5;
     }
   
   }
